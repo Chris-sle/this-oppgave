@@ -51,20 +51,20 @@ function View() {
 }
 
 //C
-let textBox = document.getElementById('textBox')
+let textBox = document.getElementById('textBox');
 
 function keyPress(Element) {
-    textBox.innerHTML += Element
+    textBox.innerHTML += Element;
 }
 
 function nextLine() {
-    textBox.innerHTML += "<br>"
+    textBox.innerHTML += "<br>";
 }
 
 function removeLast() {
-    textBox.innerHTML = textBox.innerHTML.slice(0, -1)
+    textBox.innerHTML = textBox.innerHTML.slice(0, -1);
 }
 
 function placeSpace() {
-    textBox.innerHTML += " "
+    textBox.innerHTML += " ";
 }
